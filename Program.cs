@@ -47,53 +47,53 @@ namespace LetterGrade
                     }
                 }
 
-                if (userGrade >= 97 && userGrade <= 100)
+                if (userGrade > 100 || userGrade < 0)
+                {
+                    letterGrade = "Invalid";
+                }
+                else if (userGrade >= 97)
                 {
                     letterGrade = "A+";
                 }
-                else if (userGrade >= 90 && userGrade < 97) // Thanks Aaron
+                else if (userGrade >= 90) // Thanks Aaron
                 {
                     letterGrade = "A";
                 }
-                else if (userGrade >= 85 && userGrade < 90)
+                else if (userGrade >= 85)
                 {
                     letterGrade = "A-";
                 }
-                else if (userGrade >= 80 && userGrade < 85)
+                else if (userGrade >= 80)
                 {
                     letterGrade = "B+";
                 }
-                else if (userGrade >= 75 && userGrade < 80)
+                else if (userGrade >= 75)
                 {
                     letterGrade = "B";
                 }
-                else if (userGrade >= 70 && userGrade < 75)
+                else if (userGrade >= 70)
                 {
                     letterGrade = "B-";
                 }
-                else if (userGrade >= 65 && userGrade < 70)
+                else if (userGrade >= 65)
                 {
                     letterGrade = "C+";
                 }
-                else if (userGrade >= 60 && userGrade < 65)
+                else if (userGrade >= 60)
                 {
                     letterGrade = "C";
                 }
-                else if (userGrade >= 55 && userGrade < 60)
+                else if (userGrade >= 55)
                 {
                     letterGrade = "C-";
                 }
-                else if (userGrade >= 50 && userGrade < 55)
+                else if (userGrade >= 50)
                 {
                     letterGrade = "D";
                 }
-                else if (userGrade >= 0 && userGrade < 50)
-                {
-                    letterGrade = "F";
-                }
                 else
                 {
-                    letterGrade = "Invalid";
+                    letterGrade = "F";
                 }
 
                 Console.WriteLine($"{userName}, your grade is {letterGrade}, based on your score of {userGrade}.");
