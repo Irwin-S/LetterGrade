@@ -1,0 +1,27 @@
+declare variables - userGrade, letterGrade
+prompt the user for their grade and read it in to userGrade
+if their grade is between 97 and 100
+    set letterGrade to A+
+if their grade is between 90 and 96
+    set letterGrade to A
+if their grade is between 85 and 89
+    set lettergrade to A-
+if their grade is between 80 and 84
+    set letterGrade to B+
+if their grade is between 75 and 79
+    set letterGrade to B
+if their grade is between 70 and 74
+    set letterGrade to B-
+if their grade is between 65 and 69
+    set letterGrade to C+
+if their grade is between 60 and 64
+    set letterGrade to C
+if their grade is between 55 and 59
+    set letterGrade to C-
+if their grade is between 50 and 54
+    set letterGrade to D
+if their grade is between 0 and 49
+    set letterGrade to F
+otherwise
+    tell the user their grade is invalid
+output letterGrade
