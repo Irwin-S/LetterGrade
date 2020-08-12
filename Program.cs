@@ -51,43 +51,43 @@ namespace LetterGrade
                 {
                     letterGrade = "A+";
                 }
-                else if (userGrade >= 90 && userGrade <= 96)
+                else if (userGrade >= 90 && userGrade < 97) // Thanks Aaron
                 {
                     letterGrade = "A";
                 }
-                else if (userGrade >= 85 && userGrade <= 89)
+                else if (userGrade >= 85 && userGrade < 90)
                 {
                     letterGrade = "A-";
                 }
-                else if (userGrade >= 80 && userGrade <= 84)
+                else if (userGrade >= 80 && userGrade < 85)
                 {
                     letterGrade = "B+";
                 }
-                else if (userGrade >= 75 && userGrade <= 79)
+                else if (userGrade >= 75 && userGrade < 80)
                 {
                     letterGrade = "B";
                 }
-                else if (userGrade >= 70 && userGrade <= 74)
+                else if (userGrade >= 70 && userGrade < 75)
                 {
                     letterGrade = "B-";
                 }
-                else if (userGrade >= 65 && userGrade <= 69)
+                else if (userGrade >= 65 && userGrade < 70)
                 {
                     letterGrade = "C+";
                 }
-                else if (userGrade >= 60 && userGrade <= 64)
+                else if (userGrade >= 60 && userGrade < 65)
                 {
                     letterGrade = "C";
                 }
-                else if (userGrade >= 55 && userGrade <= 59)
+                else if (userGrade >= 55 && userGrade < 60)
                 {
                     letterGrade = "C-";
                 }
-                else if (userGrade >= 50 && userGrade <= 54)
+                else if (userGrade >= 50 && userGrade < 55)
                 {
                     letterGrade = "D";
                 }
-                else if (userGrade >= 0 && userGrade <= 49)
+                else if (userGrade >= 0 && userGrade < 50)
                 {
                     letterGrade = "F";
                 }
