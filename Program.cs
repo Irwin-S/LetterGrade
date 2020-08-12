@@ -6,11 +6,11 @@ namespace LetterGrade
     {
         static void Main(string[] args)
         {
-            int userGrade;
+            double userGrade;
             string letterGrade;
 
             Console.Write("Please enter your grade:");
-            userGrade = int.Parse(Console.ReadLine());
+            userGrade = double.Parse(Console.ReadLine());
 
             if (userGrade >= 97 && userGrade <= 100)
             {
