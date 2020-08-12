@@ -1,0 +1,13 @@
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.exe
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.deps.json
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.runtimeconfig.json
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.runtimeconfig.dev.json
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.dll
+C:\TECHCareers\LetterGrade\bin\Debug\netcoreapp3.1\LetterGrade.pdb
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.csprojAssemblyReference.cache
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.AssemblyInfoInputs.cache
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.AssemblyInfo.cs
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.csproj.CoreCompileInputs.cache
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.dll
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.pdb
+C:\TECHCareers\LetterGrade\obj\Debug\netcoreapp3.1\LetterGrade.genruntimeconfig.cache
