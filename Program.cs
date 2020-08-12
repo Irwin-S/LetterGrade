@@ -15,16 +15,30 @@ namespace LetterGrade
 
             */
 
-            double userGrade;
+            double userGrade = -1;
             string userInput, letterGrade;
 
             Console.WriteLine("This application will convert a numeric grade to a letter grade.");
 
-            Console.Write("Please enter your grade:");
+            Console.Write("Please enter your grade, or Q to exit:");
             userInput = Console.ReadLine();
             while (userInput.ToLower() != "q")
             {
-                userGrade = double.Parse(userInput);
+                bool valid = false;
+                while (!valid)
+                {
+                    try 
+                    {
+                        userGrade = double.Parse(userInput);
+                        valid = true;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("That was not a numeric value, please try again.");
+                        Console.Write("Please enter a numeric grade:");
+                        userInput = Console.ReadLine();
+                    }
+                }
 
                 if (userGrade >= 97 && userGrade <= 100)
                 {
