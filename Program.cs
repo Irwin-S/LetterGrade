@@ -16,11 +16,18 @@ namespace LetterGrade
             */
 
             double userGrade = -1;
-            string userInput, letterGrade;
+            string userInput, letterGrade, userName;
+            // Constants are declared once and their value does not change.
+            // This can allow you to change something in one location and have it automatically propogate.
+            // It also saves some memory because you aren't saving space to add data later.
+            const string gradePrompt = "Please enter your grade, or Q to exit: ";
 
             Console.WriteLine("This application will convert a numeric grade to a letter grade.");
 
-            Console.Write("Please enter your grade, or Q to exit:");
+            Console.Write("Please enter your name: ");
+            userName = Console.ReadLine();
+
+            Console.Write(gradePrompt);
             userInput = Console.ReadLine();
             while (userInput.ToLower() != "q")
             {
@@ -89,9 +96,9 @@ namespace LetterGrade
                     letterGrade = "Invalid";
                 }
 
-                Console.WriteLine($"Your grade is {letterGrade}, based on your score of {userGrade}.");
+                Console.WriteLine($"{userName}, your grade is {letterGrade}, based on your score of {userGrade}.");
             
-                Console.Write("Please enter your grade:");
+                Console.Write(gradePrompt);
                 userInput = Console.ReadLine();
             }
             
