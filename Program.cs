@@ -6,8 +6,19 @@ namespace LetterGrade
     {
         static void Main(string[] args)
         {
+            /*
+                Title: August 11th Practice
+                Purpose: Convert a numeric grade to a letter grade.
+
+                Author: James Grieve
+                Last Modified: August 12, 2020
+
+            */
+
             double userGrade;
             string letterGrade;
+
+            Console.WriteLine("This application will convert a numeric grade to a letter grade.");
 
             Console.Write("Please enter your grade:");
             userGrade = double.Parse(Console.ReadLine());
